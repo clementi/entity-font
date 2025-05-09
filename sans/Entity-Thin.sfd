@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1728311655
-ModificationTime: 1746816524
+ModificationTime: 1746831693
 PfmFamily: 81
 TTFWeight: 100
 TTFWidth: 5
@@ -368,7 +368,7 @@ ChainSub2: coverage "'ccmp' Glyph Composition/Decomposition in Latin lookup 2 co
  1
   SeqLookup: 0 "Single Substitution lookup 3"
 EndFPST
-LangName: 1033 "Copyright 2024 The Geist Project Authors (https://github.com/vercel/geist-font.git)" "Geist Thin" "Regular" "" "" "Version 1.401" "" "" "Basement.studio, Vercel, Andr+AOkA-s Briganti, Guido Ferreyra, Mateo Zaragoza" "Basement.studio, Andr+AOkA-s Briganti, Mateo Zaragoza" "" "https://basement.studio/" "https://basement.studio/" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org" "https://openfontlicense.org" "" "Geist" "Thin"
+LangName: 1033 "Copyright 2024 The Geist Project Authors (https://github.com/vercel/geist-font.git)" "Entity Thin" "Regular" "" "" "Version 0.1" "" "" "Basement.studio, Vercel, Andr+AOkA-s Briganti, Guido Ferreyra, Mateo Zaragoza" "Basement.studio, Andr+AOkA-s Briganti, Mateo Zaragoza" "" "https://basement.studio/" "https://basement.studio/" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org" "https://openfontlicense.org" "" "Entity" "Thin"
 GaspTable: 1 65535 15 1
 OtfFeatName: 'ss01' 1033 "No tail a"
 OtfFeatName: 'ss02' 1033 "Alt a"
@@ -394,6 +394,7 @@ BlueFuzz 1 0
 StdHW 4 [32]
 StdVW 4 [32]
 EndPrivate
+TeXData: 1 0 0 262144 131072 87381 555745 1048576 87381 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Anchor-0" "'mark' Mark Positioning in Latin lookup 2 subtable" "Anchor-1" "'mark' Mark Positioning in Latin lookup 3 subtable" "Anchor-2" "'mark' Mark Positioning in Latin lookup 4 subtable" "Anchor-3" "'mark' Mark Positioning in Latin lookup 5 subtable" "Anchor-4" "'mark' Mark Positioning in Latin lookup 6 subtable" "Anchor-5" "'mark' Mark Positioning in Latin lookup 7 subtable" "Anchor-6" "'mark' Mark Positioning in Latin lookup 8 subtable" "Anchor-7" "'mark' Mark Positioning in Latin lookup 9 subtable" "Anchor-8" "'mark' Mark Positioning in Latin lookup 10 subtable" "Anchor-9" "'mark' Mark Positioning in Latin lookup 11 subtable" "Anchor-10" "'mkmk' Mark to Mark in Latin lookup 12 subtable"
 BeginChars: 65712 825
 
