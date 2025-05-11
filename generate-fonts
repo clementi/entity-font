@@ -1,0 +1,34 @@
+#!/usr/bin/env fontforge
+
+import fontforge
+import os
+
+
+src_paths = ['./sans/', './mono/']
+dest_path = './fonts/'
+
+
+def build_fonts(src, dest):
+    for filename in os.listdir(src):
+        font = fontforge.open(os.path.join(src, filename))
+        basename = os.path.splitext(filename)[0]
+
+        for format in ['otf', 'ttf', 'woff']:
+            font_dir = os.path.join(dest, src, format)
+            if not os.path.exists(font_dir):
+                os.makedirs(font_dir)
+            
+            font_path = os.path.join(dest, src, format, f"{basename}.{format}")
+            font.generate(font_path)
+            
+            print(f'Generated {font_path}')
+
+        font.close()
+
+
+if not os.path.exists(dest_path):
+    os.mkdir(dest_path)
+
+
+for src_path in src_paths:
+    build_fonts(src_path, dest_path)
